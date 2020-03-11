@@ -40,7 +40,9 @@ DJANGO_APPS = [
 ]
 
 CUSTOM_APPS = [
-    "users.apps.UsersConfig",
+    "core.apps.CoreConfig",
+    "post.apps.PostConfig",
+    "users.apps.UsersConfig"
 ]
 
 INSTALLED_APPS = DJANGO_APPS + CUSTOM_APPS
